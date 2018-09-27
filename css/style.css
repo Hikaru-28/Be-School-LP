@@ -1,0 +1,95 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.logo_img {
+  width:100px;
+}
+
+/* 以下Top Content*/
+.concept {
+  padding:50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.concept h1 {
+  text-align: center;
+}
+
+.concept p {
+  text-align: center;
+}
+
+.entry-box {
+  margin: auto;
+}
+
+/*以下特徴*/
+
+.features-items p {
+  text-align: center;
+}
+
+.features-input {
+  padding:40px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.input {
+  padding: 40px;
+  margin: auto;
+}
+
+.features-output {
+  padding: 40px;
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.features-output p {
+  text-align: center;
+}
+
+.output {
+  padding: 40px;
+  margin: auto;
+}
+
+.features-community {
+  padding: 40px;
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.features-job-hunting {
+  padding: 40px;
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.job-hunting {
+  padding: 40px;
+  margin: auto;
+}
+
+.features-job-hunting h3 {
+  text-align: center;
+}
+
+.features-job-hunting p {
+  text-align: center;
+}
