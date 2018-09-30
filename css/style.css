@@ -6,6 +6,11 @@
   width:100px;
 }
 
+.row-eq-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* 以下Top Content*/
 .concept {
   padding:50px;
@@ -13,13 +18,6 @@
   margin-bottom: 50px;
 }
 
-.concept h1 {
-  text-align: center;
-}
-
-.concept p {
-  text-align: center;
-}
 
 .entry-box {
   margin: auto;
@@ -54,9 +52,6 @@
   background-color: #EEEEEE;
 }
 
-.features-output p {
-  text-align: center;
-}
 
 .output {
   padding: 40px;
@@ -88,12 +83,4 @@
 
 .job-hunting h3 {
   background-color: #EADD69;
-}
-
-.features-job-hunting h3 {
-  text-align: center;
-}
-
-.features-job-hunting p {
-  text-align: center;
 }
