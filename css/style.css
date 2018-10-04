@@ -1,7 +1,3 @@
-.accent {
-  color: #D82916;
-}
-
 .logo_img {
   width:100px;
 }
@@ -11,76 +7,35 @@
   flex-wrap: wrap;
 }
 
+.row {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.sec-ttl-sub {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  padding-bottom: 5px;
+}
+
+.sec-ttl-main {
+  font-weight: bold;
+  font-size: 45px;
+  letter-spacing: 0.11em;
+  padding-bottom: 5px;
+  font-family: 'Lato', sans-serif;
+  display: block;
+}
+
 /* 以下Top Content*/
 .concept {
   padding:50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 
 .entry-box {
-  margin: auto;
 }
 
 /*以下特徴*/
-
-.features-items p {
-  text-align: center;
-}
-
-.features-input {
-  padding:40px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #E7D840;
-}
-
-.input {
-  padding: 40px;
-  margin: auto;
-}
-
-.features-output {
-  padding: 40px;
-  margin:auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #EEEEEE;
-}
-
-
-.output {
-  padding: 40px;
-  margin: auto;
-}
-
-.features-community {
-  padding: 40px;
-  margin:auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #E7D840;
-}
-
-.features-job-hunting {
-  padding: 40px;
-  margin:auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #EEEEEE;
-}
-
-.job-hunting {
-  padding: 40px;
-  margin: auto;
-}
-
-.job-hunting h3 {
-  background-color: #EADD69;
-}
