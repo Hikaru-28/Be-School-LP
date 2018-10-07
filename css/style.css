@@ -88,16 +88,33 @@ header {
 /* 以下Top Content*/
 .concept {
   padding:50px;
-  margin-top: 100px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  width
 }
 
+.concept h1 {
+  color: #0AAAEB;
+  font-size: 100px;
+  margin: auto;
+  background-color: #FDF600;
+  width: 500px;
+}
+
+.concept-message {
+  padding: 40px;
+  font-size: 30px;
+}
 
 .entry-box {
 }
 
 /*以下得られるもの*/
-.items {
-  margin: auto;
+.item-box {
+  padding-left: 60px;
+  padding-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .item {
@@ -108,13 +125,13 @@ header {
   border-color: #FDF600;
   border-radius: 20px 0px 0px 20px;
   width:80px;
+  font-size: 20px;
+  height:60px;
 }
 
 .item p {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
-  align-items: center; /* 縦方向中央揃え */
+  color: #0AAAEB;
+  line-height: 50px;
 }
 
 .item-content {
@@ -124,6 +141,12 @@ header {
   border-color: #FDF600;
   border-radius: 0px 20px 20px 0px;
   width: 160px;
+  font-size: 20px;
+  height: 60px;
+}
+
+.item-content p {
+  line-height: 50px;
 }
 
 
@@ -146,4 +169,26 @@ header {
 
   .sec-ttl-main {
     font-size: 15px;
+  }
+
+.concept {
+  margin-bottom: 40px;
+}
+
+  .concept h1 {
+    font-size: 50px;
+    width: 250px;
+  }
+
+  .concept-message {
+    padding: 20px;
+  }
+
+  .concept-message p {
+    font-size: 20px;
+  }
+
+  .item-box {
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
