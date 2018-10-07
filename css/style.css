@@ -25,6 +25,9 @@ p {
 .section-ttl {
   background-color: white;
   border-radius: 20px;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sec-ttl-sub {
@@ -87,13 +90,16 @@ header {
 
 /* 以下Top Content*/
 .concept {
-  padding:50px;
   margin-top: 150px;
   margin-bottom: 50px;
-  width
 }
 
-.concept h1 {
+.concept-main {
+  padding:50px;
+
+}
+
+.concept-main h1 {
   color: #0AAAEB;
   font-size: 100px;
   margin: auto;
@@ -101,7 +107,7 @@ header {
   width: 500px;
 }
 
-.concept-message {
+.concept-sub {
   padding: 40px;
   font-size: 30px;
 }
@@ -110,14 +116,14 @@ header {
 }
 
 /*以下得られるもの*/
-.item-box {
+.bizcon-box {
   padding-left: 60px;
   padding-right: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-.item {
+.bizcon {
   float: left;
   background-color: #FDF600;
   border-style: solid;
@@ -129,12 +135,12 @@ header {
   height:60px;
 }
 
-.item p {
+.bizcon p {
   color: #0AAAEB;
   line-height: 50px;
 }
 
-.item-content {
+.bizcon-content {
   float: left;
   border-style: solid;
   border-width: 5px;
@@ -145,12 +151,71 @@ header {
   height: 60px;
 }
 
-.item-content p {
+.bizcon-content p {
   line-height: 50px;
+}
+
+/*以下運営会社*/
+.rashisa-logo {
+  text-align: center;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table {
+  width: 70%;
+  max-width: 100%;
+  margin-top: 40px;
+  margin-right: 100px;
+  margin-left: 80px;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  color: white;
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.table td {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
 }
 
 
 /*以下メディアクエリ*/
+@media (max-width: 800px){
+  .bizcon-box {
+    padding-right: 10px;
+  }
+
+  .sec-ttl-sub {
+    font-size: 20px;
+  }
+
+  .sec-ttl-main {
+    font-size: 30px;
+  }
+
+  .bizcon {
+    width:70px;
+  }
+
+  .bizcon-content {
+    width:140px;
+  }
+}
+
 @media(max-width:500px) {
   .top-head {
     font-size: 1.8rem;
@@ -161,34 +226,70 @@ header {
   .section-ttl {
     padding-top: 30px;
     padding-bottom: 50px;
+    width:75%;
   }
 
   .sec-ttl-sub {
-    font-size: 10px;
-  }
-
-  .sec-ttl-main {
     font-size: 15px;
   }
 
-.concept {
-  margin-bottom: 40px;
-}
+  .sec-ttl-main {
+    font-size: 20px;
+  }
 
-  .concept h1 {
+  .concept-main {
+    margin-bottom: 40px;
+  }
+
+  .concept-main h1 {
     font-size: 50px;
     width: 250px;
   }
 
-  .concept-message {
+  .concept-sub {
     padding: 20px;
   }
 
-  .concept-message p {
+  .concept-sub p {
     font-size: 20px;
   }
 
-  .item-box {
+  .bizcon-box {
     margin-top: 20px;
     margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
   }
+
+  .bizcon {
+    width:70px;
+  }
+
+  .bizcon-content {
+    width:140px;
+  }
+
+  .rashisa-logo {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    background-color: transparent;
+  }
+
+  .table td {
+    padding: .75rem;
+    width: 20px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+}
