@@ -25,6 +25,7 @@ p {
 .section-ttl {
   background-color: white;
   border-radius: 20px;
+  border: solid 5px #f8f9fa;
   width:50%;
   margin-left: auto;
   margin-right: auto;
@@ -121,6 +122,10 @@ header {
   padding-top: 35px;
 }
 
+.gain-1 p {
+  color: #343a40;
+}
+
 .gain-2 {
   padding-top: 35px;
 }
@@ -128,7 +133,15 @@ header {
 .gain-3 {
   background-color: #f8f9fa;
   padding-top: 35px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
+}
+
+.gain-3 .secction-ttl {
+
+}
+
+.gain-3 p {
+  color: #343a40;
 }
 
 .bizcon-box {
@@ -176,6 +189,7 @@ header {
   margin-top: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
 }
 
 .table {
@@ -294,7 +308,7 @@ tr {
   .table {
     width: 100%;
     max-width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 1rem;
