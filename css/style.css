@@ -25,7 +25,6 @@ p {
 .section-ttl {
   background-color: white;
   border-radius: 20px;
-  border: solid 5px #f8f9fa;
   width:50%;
   margin-left: auto;
   margin-right: auto;
@@ -122,6 +121,10 @@ header {
   padding-top: 35px;
 }
 
+.gain-1 .section-ttl {
+  border: solid 1px #343a40;
+}
+
 .gain-1 p {
   color: #343a40;
 }
@@ -136,8 +139,8 @@ header {
   margin-bottom: 35px;
 }
 
-.gain-3 .secction-ttl {
-
+.gain-3 .section-ttl {
+  border: solid 1px #343a40;
 }
 
 .gain-3 p {
@@ -145,48 +148,46 @@ header {
 }
 
 .bizcon-box {
-  padding-left: 60px;
-  padding-right: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
+  padding: auto;
+}
+
+.bizcon-table {
+  border: solid 5px #FDF600;
+  border-collapse: separate;
+  border-radius: 20px;
+  height:60px;
+  margin: auto;
+  line-height: 50px;
+}
+
+.bizcon-table td {
+  font-size: 20px;
+  height: 60px;
+  vertical-align: middle;
 }
 
 .bizcon {
-  float: left;
   background-color: #FDF600;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #FDF600;
-  border-radius: 20px 0px 0px 20px;
-  width:80px;
-  font-size: 20px;
-  height:60px;
-}
-
-.bizcon p {
   color: #0AAAEB;
-  line-height: 50px;
+  width:80px;
 }
 
 .bizcon-content {
-  float: left;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #FDF600;
-  border-radius: 0px 20px 20px 0px;
+  color: white;
   width: 160px;
-  font-size: 20px;
-  height: 60px;
 }
 
-.bizcon-content p {
-  line-height: 50px;
+.bizcon-main {
+  font-size: 30px;
+  color: #FDF600;
 }
 
 /*以下運営会社*/
 .rashisa-logo {
   text-align: center;
-  margin-top: auto;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
@@ -202,13 +203,13 @@ header {
   background-color: transparent;
 }
 
-tbody {
+.table tbody {
   display: table-row-group;
   vertical-align: middle;
   border-color: inherit;
 }
 
-tr {
+.table tr {
   color: white;
   display: table-row;
   vertical-align: inherit;
@@ -224,10 +225,6 @@ tr {
 
 /*以下メディアクエリ*/
 @media (max-width: 800px){
-  .bizcon-box {
-    padding-right: 10px;
-  }
-
   .sec-ttl-sub {
     font-size: 20px;
   }
