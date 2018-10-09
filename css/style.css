@@ -125,8 +125,14 @@ header {
   border: solid 1px #343a40;
 }
 
+.gain-1 .col-md-7 {
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
 .gain-1 p {
   color: #343a40;
+  font-size: 25px;
 }
 
 .gain-2 {
@@ -278,6 +284,14 @@ header {
 
   .concept-sub p {
     font-size: 20px;
+  }
+
+  .gain-1 p {
+    font-size: 18px;
+  }
+
+  .gain-1 .col-md-7 {
+    padding: auto;
   }
 
   .bizcon-box {
