@@ -126,8 +126,8 @@ header {
 }
 
 .gain-1 .col-md-7 {
-  padding-right: 30px;
-  padding-top: 30px;
+  padding-right: 15px;
+  padding-top: 15px;
 }
 
 .accent {
@@ -297,6 +297,15 @@ header {
 
   .gain-1 .col-md-7 {
     padding: auto;
+  }
+
+  .list {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .accent {
+    font-size: 20px;
   }
 
   .bizcon-box {
